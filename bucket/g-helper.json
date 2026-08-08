@@ -1,7 +1,7 @@
 {
     "version": "0.272",
     "description": "Lightweight control tool for Asus laptops",
-    "homepage": "https://seerge.github.io/g-helper/",
+    "homepage": "https://g-helper.com/",
     "license": "MIT",
     "notes": "Asus System Control Interface v3+ and .NET Desktop Runtime 10 are required.",
     "suggest": {
@@ -27,7 +27,7 @@
     "shortcuts": [
         [
             "GHelper.exe",
-            "GHelper"
+            "G-Helper"
         ]
     ],
     "persist": "data",
