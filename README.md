@@ -11,5 +11,5 @@ scoop bucket add br4ndol https://github.com/br4ndol/scoop-bucket
 
 ##### [Froststrap](https://froststrap.github.io)
 ##### [G-Helper](https://g-helper.com)
-##### [Winscript](https://winscript.cc)
 ##### [Ryujinx Canary](https://ryujinx.app)
+##### [Winscript](https://winscript.cc)
