@@ -62,7 +62,10 @@
         "mods",
         "skins",
         "themes",
-        "translations"
+        "translations",
+        "accounts.json",
+        "metacache",
+        "prismlauncher.cfg"
     ],
     "pre_uninstall": [
         "# Hardlinks cannot work properly here, as this app would create a new file instead of writing directly.",
