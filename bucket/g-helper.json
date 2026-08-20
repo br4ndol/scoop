@@ -1,5 +1,5 @@
 {
-    "version": "0.276",
+    "version": "0.277",
     "description": "Lightweight control tool for Asus laptops",
     "homepage": "https://g-helper.com/",
     "license": "MIT",
@@ -9,8 +9,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/seerge/g-helper/releases/download/v0.276/GHelper.zip",
-            "hash": "b43bab27bd3eecdfb277927fc4171ffe7f4960306681769c5d158c3f0e59f878"
+            "url": "https://github.com/seerge/g-helper/releases/download/v0.277/GHelper.zip",
+            "hash": "9bff23a04832ebe02306831c98899617485eb922b1d7971a12e95d78f4ac7497"
         }
     },
     "post_install": [
