@@ -1,0 +1,42 @@
+{
+    "version": "14.3",
+    "description": "See what programs are configured to startup automatically when your system boots and you login.",
+    "homepage": "https://learn.microsoft.com/sysinternals/downloads/autoruns",
+    "license": {
+        "identifier": "Freeware",
+        "url": "https://learn.microsoft.com/sysinternals/license-terms"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://download.sysinternals.com/files/Autoruns.zip",
+            "hash": "7b3a8eed819f732a3e4c134aecaeaebb8d643a46490ccddb82cc8a1a745c4cf7"
+        }
+    },
+    "bin": [
+        [
+            "Autoruns64.exe",
+            "Autoruns"
+        ],
+        [
+            "Autorunsc64.exe",
+            "Autorunsc"
+        ]
+    ],
+    "shortcuts": [
+        [
+            "Autoruns64.exe",
+            "Autoruns"
+        ]
+    ],
+    "checkver": {
+        "url": "https://raw.githubusercontent.com/MicrosoftDocs/sysinternals/main/sysinternals/downloads/autoruns.md",
+        "regex": "#.*?v([\\d.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://download.sysinternals.com/files/Autoruns.zip"
+            }
+        }
+    }
+}
