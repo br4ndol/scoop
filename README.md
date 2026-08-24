@@ -10,6 +10,7 @@ scoop bucket add br4ndol https://github.com/br4ndol/scoop
 # List Available Applications
 
 ##### [Autoruns](https://learn.microsoft.com/en-us/sysinternals/downloads/autoruns)
+##### [Eden Nightly](https://eden-emu.dev/)
 ##### [Froststrap](https://froststrap.xyz/)
 ##### [G-Helper](https://g-helper.com)
 ##### [Prism Launcher](https://prismlauncher.org/)
