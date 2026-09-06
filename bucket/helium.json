@@ -1,0 +1,40 @@
+{
+    "version": "0.16.5.1",
+    "description": "Privacy-first browser without distractions",
+    "homepage": "https://helium.computer",
+    "license": "BSD-3-Clause, GPL-3.0-or-later",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/imputnet/helium-windows/releases/download/0.16.5.1/helium_0.16.5.1_x64-windows.zip",
+            "hash": "6662f27e6c94fa033ff950ba06dcf923d38aa7c9f7e9d0682cf15cdaa5c8a9c5",
+            "extract_dir": "helium_0.16.5.1_x64-windows"
+        }
+    },
+    "bin": [
+        [
+            "chrome.exe",
+            "helium",
+            "--user-data-dir=\"$persist_dir\\User Data\""
+        ]
+    ],
+    "shortcuts": [
+        [
+            "chrome.exe",
+            "Helium",
+            "--user-data-dir=\"$persist_dir\\User Data\""
+        ]
+    ],
+    "persist": "User Data",
+    "checkver": {
+        "github": "https://api.github.com/repos/imputnet/helium-windows/releases",
+        "jsonpath": "$.[0].tag_name"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/imputnet/helium-windows/releases/download/$version/helium_$version_x64-windows.zip",
+                "extract_dir": "helium_$version_x64-windows"
+            }
+        }
+    }
+}
