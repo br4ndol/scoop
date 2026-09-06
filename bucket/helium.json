@@ -13,18 +13,15 @@
     "bin": [
         [
             "chrome.exe",
-            "helium",
-            "--user-data-dir=\"$persist_dir\\User Data\""
+            "helium"
         ]
     ],
     "shortcuts": [
         [
             "chrome.exe",
-            "Helium",
-            "--user-data-dir=\"$persist_dir\\User Data\""
+            "Helium"
         ]
     ],
-    "persist": "User Data",
     "checkver": {
         "github": "https://api.github.com/repos/imputnet/helium-windows/releases",
         "jsonpath": "$.[0].tag_name"
