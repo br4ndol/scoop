@@ -18,9 +18,6 @@ scoop bucket add br4ndol https://github.com/br4ndol/scoop
 
 # List Available Applications
 
-
-<summary><h3>Apps</h3> <em>(expand)</em></summary>
-
 [Autoruns](https://learn.microsoft.com/en-us/sysinternals/downloads/autoruns)
 ```
 scoop install br4ndol/autoruns
