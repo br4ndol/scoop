@@ -14,10 +14,15 @@
     },
     "post_install": [
         "Remove-Item \"$dir\\ATTACK SHARK X3 SOFT.exe\" -Force -ErrorAction SilentlyContinue",
-        "Remove-Item \"$env:ALLUSERSPROFILE\\Microsoft\\Windows\\Start Menu\\Programs\\Attack SharkX3Mouse\" -Force -Recurse -ErrorAction SilentlyContinue",
-        "Remove-Item \"$env:APPDATA\\Microsoft\\Windows\\Start Menu\\Programs\\Attack SharkX3Mouse\" -Force -Recurse -ErrorAction SilentlyContinue",
-        "Remove-Item \"$env:PUBLIC\\Desktop\\ATTACK SHARK*.lnk\" -Force -ErrorAction SilentlyContinue",
-        "Remove-Item \"$env:DESKTOP\\ATTACK SHARK*.lnk\" -Force -ErrorAction SilentlyContinue"
+        "$targets = @(",
+        "    \"$env:ALLUSERSPROFILE\\Microsoft\\Windows\\Start Menu\\Programs\\*Attack*\",",
+        "    \"$env:APPDATA\\Microsoft\\Windows\\Start Menu\\Programs\\*Attack*\",",
+        "    \"$env:PUBLIC\\Desktop\\*Attack*\",",
+        "    \"$env:DESKTOP\\*Attack*\"",
+        ")",
+        "foreach ($target in $targets) {",
+        "    Get-Item $target -ErrorAction SilentlyContinue | Remove-Item -Recurse -Force -ErrorAction SilentlyContinue",
+        "}"
     ],
     "uninstaller": {
         "script": [
