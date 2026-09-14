@@ -13,10 +13,14 @@
         ]
     },
     "post_install": [
-        "Start-Sleep -Seconds 3",
         "Remove-Item \"$dir\\ATTACK SHARK X3 SOFT.exe\" -Force -ErrorAction SilentlyContinue",
-        "Get-ChildItem \"$env:ALLUSERSPROFILE\\Microsoft\\Windows\\Start Menu\\Programs\", \"$env:APPDATA\\Microsoft\\Windows\\Start Menu\\Programs\" -Filter \"*Attack*\" -ErrorAction SilentlyContinue | Remove-Item -Force -Recurse -ErrorAction SilentlyContinue",
-        "Get-ChildItem \"$env:PUBLIC\\Desktop\", \"$env:DESKTOP\" -Filter \"*Attack*\" -ErrorAction SilentlyContinue | Remove-Item -Force -ErrorAction SilentlyContinue"
+        "$smAllUsers = \"$env:ALLUSERSPROFILE\\Microsoft\\Windows\\Start Menu\\Programs\\Attack SharkX3Mouse\"",
+        "if (Test-Path $smAllUsers) { try { Remove-Item $smAllUsers -Force -Recurse -ErrorAction Stop } catch { Start-Process powershell -Verb RunAs -WindowStyle Hidden -ArgumentList '-NoProfile','-Command',\"Remove-Item -LiteralPath '$smAllUsers' -Force -Recurse -ErrorAction SilentlyContinue\" -Wait } }",
+        "Remove-Item \"$env:APPDATA\\Microsoft\\Windows\\Start Menu\\Programs\\Attack SharkX3Mouse\" -Force -Recurse -ErrorAction SilentlyContinue",
+        "$deskUser = [Environment]::GetFolderPath('Desktop')",
+        "$deskAll = [Environment]::GetFolderPath('CommonDesktopDirectory')",
+        "Remove-Item \"$deskUser\\Attack SharkX3Mouse.lnk\" -Force -ErrorAction SilentlyContinue",
+        "Remove-Item \"$deskAll\\Attack SharkX3Mouse.lnk\" -Force -ErrorAction SilentlyContinue"
     ],
     "uninstaller": {
         "script": [
