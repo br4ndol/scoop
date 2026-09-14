@@ -1,0 +1,41 @@
+{
+    "version": "1.0.0",
+    "description": "Official driver and software for the ATTACK SHARK X3 gaming mouse.",
+    "homepage": "https://attackshark.com/products/attack-shark-x3-wireless-gaming-mouse-paw3395",
+    "license": "Freeware",
+    "url": "https://download.attackshark.pro/ATTACKSHARK/X3/ATTACKSHARKX3.zip",
+    "hash": "e7da2e8fa705ecaa0e8aede71daaa5e83984ea78c9fbbddbd5f65f917ec201dd",
+    "installer": {
+        "script": [
+            "if (Test-Path \"$dir\\ATTACK SHARK X3 SOFT.exe\") {",
+            "    Start-Process -FilePath \"$dir\\ATTACK SHARK X3 SOFT.exe\" -ArgumentList \"/VERYSILENT\", \"/SUPPRESSMSGBOXES\", \"/DIR=`\"$dir`\"\" -Wait",
+            "}"
+        ]
+    },
+    "post_install": [
+        "Remove-Item \"$dir\\ATTACK SHARK X3 SOFT.exe\" -Force -ErrorAction SilentlyContinue",
+        "Remove-Item \"$env:ALLUSERSPROFILE\\Microsoft\\Windows\\Start Menu\\Programs\\Attack SharkX3Mouse\" -Force -Recurse -ErrorAction SilentlyContinue",
+        "Remove-Item \"$env:APPDATA\\Microsoft\\Windows\\Start Menu\\Programs\\Attack SharkX3Mouse\" -Force -Recurse -ErrorAction SilentlyContinue",
+        "Remove-Item \"$env:PUBLIC\\Desktop\\ATTACK SHARK*.lnk\" -Force -ErrorAction SilentlyContinue",
+        "Remove-Item \"$env:DESKTOP\\ATTACK SHARK*.lnk\" -Force -ErrorAction SilentlyContinue"
+    ],
+    "uninstaller": {
+        "script": [
+            "if (Test-Path \"$dir\\unins000.exe\") {",
+            "    Start-Process -FilePath \"$dir\\unins000.exe\" -ArgumentList \"/VERYSILENT\", \"/SUPPRESSMSGBOXES\" -Wait",
+            "}"
+        ]
+    },
+    "bin": [
+        [
+            "X3.exe"
+        ]
+    ],
+    "shortcuts": [
+        [
+            "X3.exe",
+            "Attack Shark X3"
+        ]
+    ],
+    "persist": "Data"
+}
