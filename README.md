@@ -1,14 +1,16 @@
 # Personal Scoop Bucket
 
-  
-
 Add:
-
 ```
 scoop bucket add br4ndol https://github.com/br4ndol/scoop
 ```
 ---
 # List Available Applications
+
+[Attack Shark X3 Software](https://attackshark.com/products/attack-shark-x3-wireless-gaming-mouse-paw3395)
+```
+scoop install br4ndol/attackshark-x3
+```
 
 [Autoruns](https://learn.microsoft.com/en-us/sysinternals/downloads/autoruns)
 ```
