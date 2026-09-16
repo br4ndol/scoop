@@ -16,6 +16,10 @@ scoop install br4ndol/attackshark-x3
 ```
 scoop install br4ndol/autoruns
 ```
+[Brave Browser](https://brave.com/)
+```
+scoop install br4ndol/brave
+```
 
 [Eden Nightly](https://eden-emu.dev/)
 ```
@@ -32,7 +36,7 @@ scoop install br4ndol/froststrap
 scoop install br4ndol/g-helper
 ```
 
-[Helium](https://helium.computer/)
+[Helium Browser](https://helium.computer/)
 ```
 scoop install br4ndol/helium
 ```
