@@ -24,12 +24,6 @@
             "Brave"
         ]
     ],
-    "pre_uninstall": [
-        "if (Test-Path \"$env:LocalAppData\\BraveSoftware\") {",
-        "    Write-Host 'Deleting Brave user data from AppData...' -ForegroundColor Yellow",
-        "    Remove-Item \"$env:LocalAppData\\BraveSoftware\" -Recurse -Force -ErrorAction SilentlyContinue",
-        "}"
-    ],
     "checkver": {
         "url": "https://brave-browser-downloads.s3.brave.com/latest/release-windows-x64.version",
         "regex": "([\\d.]+)"
