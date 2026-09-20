@@ -55,6 +55,11 @@ scoop install br4ndol/process-explorer
 scoop install br4ndol/ryujinx-canary
 ```
 
+[Sonora](https://sonorahq.org/)
+```
+scoop install br4ndol/sonora
+```
+
 [Winscript](https://winscript.cc)
 ```
 scoop install br4ndol/winscript
