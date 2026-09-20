@@ -55,7 +55,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/Froststrap/Froststrap/releases/download/v$version/Froststrap-Setup.exe"
+                "url": "https://github.com/Froststrap/Froststrap/releases/download/v$version/Froststrap-windows-x64.exe"
             }
         }
     }
