@@ -2,7 +2,8 @@
     "version": "0.38.0",
     "description": "A native music streaming client, built with Rust and GPUI",
     "homepage": "https://sonorahq.org/",
-    "license": "GPL-3.0-only",
+    "license": "GPL-3.0-or-later",
+    "notes": "Los datos de Sonora se guardan en $persist_dir\\data (AppData\\Local) y $persist_dir\\config (AppData\\Roaming) mediante junctions. Cierra Sonora antes de actualizar o desinstalar.",
     "architecture": {
         "64bit": {
             "url": "https://github.com/sonorahq/sonora/releases/download/v0.38.0/sonora-v0.38.0-x86_64-pc-windows-msvc.exe",
@@ -13,15 +14,26 @@
         "Get-ChildItem \"$dir\" -Filter \"sonora-*.exe\" | Rename-Item -NewName \"sonora.exe\""
     ],
     "post_install": [
-        "if (!(Test-Path \"$persist_dir\\data\")) { New-Item -ItemType Directory -Path \"$persist_dir\\data\" -Force | Out-Null }",
-        "if (Test-Path \"$env:LOCALAPPDATA\\sonora\") {",
-        "    Copy-Item -Path \"$env:LOCALAPPDATA\\sonora\\*\" -Destination \"$persist_dir\\data\" -Force -Recurse",
-        "    Remove-Item \"$env:LOCALAPPDATA\\sonora\" -Force -Recurse",
-        "}",
-        "New-Item -ItemType Junction -Path \"$env:LOCALAPPDATA\\sonora\" -Target \"$persist_dir\\data\" | Out-Null"
+        "$links = @{ \"$env:LOCALAPPDATA\\sonora\" = \"$persist_dir\\data\"; \"$env:APPDATA\\sonora\" = \"$persist_dir\\config\" }",
+        "foreach ($link in $links.Keys) {",
+        "    $target = $links[$link]",
+        "    New-Item -ItemType Directory -Path $target -Force | Out-Null",
+        "    $item = Get-Item $link -Force -ErrorAction SilentlyContinue",
+        "    if ($item -and $item.LinkType) { [System.IO.Directory]::Delete($link) }",
+        "    elseif ($item) {",
+        "        Copy-Item -Path \"$link\\*\" -Destination $target -Force -Recurse -ErrorAction SilentlyContinue",
+        "        Remove-Item $link -Force -Recurse",
+        "    }",
+        "    New-Item -ItemType Junction -Path $link -Target $target | Out-Null",
+        "}"
     ],
     "uninstaller": {
-        "script": "if (Test-Path \"$env:LOCALAPPDATA\\sonora\") { Remove-Item \"$env:LOCALAPPDATA\\sonora\" -Force -Recurse }"
+        "script": [
+            "foreach ($link in \"$env:LOCALAPPDATA\\sonora\", \"$env:APPDATA\\sonora\") {",
+            "    $item = Get-Item $link -Force -ErrorAction SilentlyContinue",
+            "    if ($item -and $item.LinkType) { [System.IO.Directory]::Delete($link) }",
+            "}"
+        ]
     },
     "bin": "sonora.exe",
     "shortcuts": [
@@ -30,7 +42,6 @@
             "Sonora"
         ]
     ],
-    "persist": "data",
     "checkver": {
         "url": "https://api.github.com/repos/sonorahq/sonora/releases",
         "jsonpath": "$[0].tag_name",
