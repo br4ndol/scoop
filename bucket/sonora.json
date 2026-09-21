@@ -3,7 +3,6 @@
     "description": "A native music streaming client, built with Rust and GPUI",
     "homepage": "https://sonorahq.org/",
     "license": "GPL-3.0-or-later",
-    "notes": "Los datos de Sonora se guardan en $persist_dir\\data (AppData\\Local) y $persist_dir\\config (AppData\\Roaming) mediante junctions. Cierra Sonora antes de actualizar o desinstalar.",
     "architecture": {
         "64bit": {
             "url": "https://github.com/sonorahq/sonora/releases/download/v0.38.0/sonora-v0.38.0-x86_64-pc-windows-msvc.exe",
