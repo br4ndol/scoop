@@ -60,6 +60,11 @@ scoop install br4ndol/ryujinx-canary
 scoop install br4ndol/sonora
 ```
 
+[VSCodium](https://vscodium.com/)
+```
+scoop install br4ndol/vscodium
+```
+
 [Winscript](https://winscript.cc)
 ```
 scoop install br4ndol/winscript

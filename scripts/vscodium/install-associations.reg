@@ -1,0 +1,225 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\Software\Classes\.bat\OpenWithProgids]
+"VSCodium"=""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodium.bat]
+@="Batch File"
+"AppUserModelID"="VSCodium"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodium.bat\DefaultIcon]
+@="\"$codiumdir\\resources\\app\\resources\\win32\\code.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodium.bat\shell\open]
+"Icon"="\"$codium\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodium.bat\shell\open\command]
+@="\"$codium\" \"%1\""
+
+[HKEY_CURRENT_USER\Software\Classes\.c\OpenWithProgids]
+"VSCodium"=""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodium.c]
+@="C Source File"
+"AppUserModelID"="VSCodium"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodium.c\DefaultIcon]
+@="\"$codiumdir\\resources\\app\\resources\\win32\\c.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodium.c\shell\open]
+"Icon"="\"$codium\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodium.c\shell\open\command]
+@="\"$codium\" \"%1\""
+
+[HKEY_CURRENT_USER\Software\Classes\.cpp\OpenWithProgids]
+"VSCodium"=""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodium.cpp]
+@="C++ Source File"
+"AppUserModelID"="VSCodium"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodium.cpp\DefaultIcon]
+@="\"$codiumdir\\resources\\app\\resources\\win32\\cpp.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodium.cpp\shell\open]
+"Icon"="\"$codium\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodium.cpp\shell\open\command]
+@="\"$codium\" \"%1\""
+
+[HKEY_CURRENT_USER\Software\Classes\.css\OpenWithProgids]
+"VSCodium"=""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodium.css]
+@="CSS File"
+"AppUserModelID"="VSCodium"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodium.css\DefaultIcon]
+@="\"$codiumdir\\resources\\app\\resources\\win32\\css.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodium.css\shell\open]
+"Icon"="\"$codium\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodium.css\shell\open\command]
+@="\"$codium\" \"%1\""
+
+[HKEY_CURRENT_USER\Software\Classes\.html\OpenWithProgids]
+"VSCodium"=""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodium.html]
+@="HTML File"
+"AppUserModelID"="VSCodium"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodium.html\DefaultIcon]
+@="\"$codiumdir\\resources\\app\\resources\\win32\\html.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodium.html\shell\open]
+"Icon"="\"$codium\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodium.html\shell\open\command]
+@="\"$codium\" \"%1\""
+
+[HKEY_CURRENT_USER\Software\Classes\.js\OpenWithProgids]
+"VSCodium"=""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodium.js]
+@="JavaScript File"
+"AppUserModelID"="VSCodium"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodium.js\DefaultIcon]
+@="\"$codiumdir\\resources\\app\\resources\\win32\\javascript.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodium.js\shell\open]
+"Icon"="\"$codium\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodium.js\shell\open\command]
+@="\"$codium\" \"%1\""
+
+[HKEY_CURRENT_USER\Software\Classes\.json\OpenWithProgids]
+"VSCodium"=""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodium.json]
+@="JSON File"
+"AppUserModelID"="VSCodium"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodium.json\DefaultIcon]
+@="\"$codiumdir\\resources\\app\\resources\\win32\\json.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodium.json\shell\open]
+"Icon"="\"$codium\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodium.json\shell\open\command]
+@="\"$codium\" \"%1\""
+
+[HKEY_CURRENT_USER\Software\Classes\.md\OpenWithProgids]
+"VSCodium"=""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodium.md]
+@="Markdown File"
+"AppUserModelID"="VSCodium"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodium.md\DefaultIcon]
+@="\"$codiumdir\\resources\\app\\resources\\win32\\markdown.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodium.md\shell\open]
+"Icon"="\"$codium\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodium.md\shell\open\command]
+@="\"$codium\" \"%1\""
+
+[HKEY_CURRENT_USER\Software\Classes\.php\OpenWithProgids]
+"VSCodium"=""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodium.php]
+@="PHP File"
+"AppUserModelID"="VSCodium"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodium.php\DefaultIcon]
+@="\"$codiumdir\\resources\\app\\resources\\win32\\php.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodium.php\shell\open]
+"Icon"="\"$codium\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodium.php\shell\open\command]
+@="\"$codium\" \"%1\""
+
+[HKEY_CURRENT_USER\Software\Classes\.py\OpenWithProgids]
+"VSCodium"=""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodium.py]
+@="Python File"
+"AppUserModelID"="VSCodium"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodium.py\DefaultIcon]
+@="\"$codiumdir\\resources\\app\\resources\\win32\\python.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodium.py\shell\open]
+"Icon"="\"$codium\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodium.py\shell\open\command]
+@="\"$codium\" \"%1\""
+
+[HKEY_CURRENT_USER\Software\Classes\.ts\OpenWithProgids]
+"VSCodium"=""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodium.ts]
+@="TypeScript File"
+"AppUserModelID"="VSCodium"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodium.ts\DefaultIcon]
+@="\"$codiumdir\\resources\\app\\resources\\win32\\typescript.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodium.ts\shell\open]
+"Icon"="\"$codium\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodium.ts\shell\open\command]
+@="\"$codium\" \"%1\""
+
+[HKEY_CURRENT_USER\Software\Classes\.txt\OpenWithProgids]
+"VSCodium"=""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodium.txt]
+@="Text File"
+"AppUserModelID"="VSCodium"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodium.txt\DefaultIcon]
+@="\"$codiumdir\\resources\\app\\resources\\win32\\default.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodium.txt\shell\open]
+"Icon"="\"$codium\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodium.txt\shell\open\command]
+@="\"$codium\" \"%1\""
+
+[HKEY_CURRENT_USER\Software\Classes\.xml\OpenWithProgids]
+"VSCodium"=""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodium.xml]
+@="XML File"
+"AppUserModelID"="VSCodium"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodium.xml\DefaultIcon]
+@="\"$codiumdir\\resources\\app\\resources\\win32\\xml.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodium.xml\shell\open]
+"Icon"="\"$codium\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodium.xml\shell\open\command]
+@="\"$codium\" \"%1\""
+
+[HKEY_CURRENT_USER\Software\Classes\.yaml\OpenWithProgids]
+"VSCodium"=""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodium.yaml]
+@="YAML File"
+"AppUserModelID"="VSCodium"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodium.yaml\DefaultIcon]
+@="\"$codiumdir\\resources\\app\\resources\\win32\\default.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodium.yaml\shell\open]
+"Icon"="\"$codium\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodium.yaml\shell\open\command]
+@="\"$codium\" \"%1\""
