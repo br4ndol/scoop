@@ -13,12 +13,8 @@
     "suggest": {
         "Microsoft Visual C++ Runtime 2022": "extras/vcredist2022"
     },
-    "architecture": {
-        "64bit": {
-            "url": "https://nightly.eden-emu.dev/v1790369717.bebc19da32/Eden-Windows-bebc19da32-amd64-clang-pgo.zip",
-            "hash": "dcfa4a4dccf817c12a99693d061abf6ba8787e3fddd935d6939ff47066ab594b"
-        }
-    },
+    "url": "https://nightly.eden-emu.dev/v1790369717.bebc19da32/Eden-Windows-bebc19da32-amd64-clang-pgo.zip",
+    "hash": "dcfa4a4dccf817c12a99693d061abf6ba8787e3fddd935d6939ff47066ab594b",
     "pre_install": [
         "if (!(Test-Path \"$persist_dir\")) {",
         "    New-Item \"$persist_dir\" -ItemType Directory | Out-Null",
@@ -53,10 +49,6 @@
         "regex": "v([\\d]+\\.(?<commit>[a-f\\d]+))"
     },
     "autoupdate": {
-        "architecture": {
-            "64bit": {
-                "url": "https://nightly.eden-emu.dev/v$version/Eden-Windows-$matchCommit-amd64-clang-pgo.zip"
-            }
-        }
+        "url": "https://nightly.eden-emu.dev/v$version/Eden-Windows-$matchCommit-amd64-clang-pgo.zip"
     }
 }

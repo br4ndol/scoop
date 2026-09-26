@@ -3,15 +3,11 @@
     "description": "Secure, Fast & Private Web Browser with Adblocker",
     "homepage": "https://brave.com",
     "license": {
-        "identifier": "Freeware,BSD-3-Clause,GPL-3.0-only,...",
+        "identifier": "MPL-2.0",
         "url": "https://github.com/brave/brave-browser/blob/master/LICENSE"
     },
-    "architecture": {
-        "64bit": {
-            "url": "https://github.com/brave/brave-browser/releases/download/v1.96.59/brave-v1.96.59-win32-x64.zip",
-            "hash": "f2d439484d89e634792d8ce93a6a8e920ab01e70889f455d5511b78af831ed09"
-        }
-    },
+    "url": "https://github.com/brave/brave-browser/releases/download/v1.96.59/brave-v1.96.59-win32-x64.zip",
+    "hash": "f2d439484d89e634792d8ce93a6a8e920ab01e70889f455d5511b78af831ed09",
     "bin": [
         [
             "brave.exe",
@@ -29,11 +25,7 @@
         "regex": "([\\d.]+)"
     },
     "autoupdate": {
-        "architecture": {
-            "64bit": {
-                "url": "https://github.com/brave/brave-browser/releases/download/v$version/brave-v$version-win32-x64.zip"
-            }
-        },
+        "url": "https://github.com/brave/brave-browser/releases/download/v$version/brave-v$version-win32-x64.zip",
         "hash": {
             "url": "$url.sha256"
         }
