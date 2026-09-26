@@ -40,6 +40,10 @@ scoop install br4ndol/g-helper
 ```
 scoop install br4ndol/helium
 ```
+[Hytale Launcher](https://hytale.com/)
+```
+scoop install br4ndol/hytale
+```
 
 [Prism Launcher](https://prismlauncher.org/)
 ```
