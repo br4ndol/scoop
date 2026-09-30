@@ -26,7 +26,8 @@
         "        Copy-Item -Path \"$env:APPDATA\\Hytale\\*\" -Destination \"$persist_dir\\data\" -Recurse -Force",
         "        Remove-Item -Path \"$env:APPDATA\\Hytale\" -Recurse -Force",
         "    }",
-        "}"
+        "}",
+        "Remove-Item \"$dir\\hytale-launcher-$version.zip\" -Force -ErrorAction SilentlyContinue"
     ],
     "post_install": [
         "$gameDataPath = \"$persist_dir\\data\"",
