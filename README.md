@@ -1,80 +1,221 @@
-# Personal Scoop Bucket
+<div align="center">
 
-Add:
+# 🍨 Personal Scoop Bucket
+
+**A small collection of apps I use, packaged for [Scoop](https://scoop.sh).**
+
+![Scoop](https://img.shields.io/badge/Scoop-bucket-5b9bd5?style=for-the-badge&logo=windows&logoColor=white)
+![Apps](https://img.shields.io/badge/apps-15-success?style=for-the-badge)
+![Platform](https://img.shields.io/badge/platform-Windows-0078D6?style=for-the-badge&logo=windows11&logoColor=white)
+
+</div>
+
+---
+
+## Add the bucket:
+
+
+
 ```
 scoop bucket add br4ndol https://github.com/br4ndol/scoop
 ```
----
-# List Available Applications
 
-[Attack Shark X3 Software](https://attackshark.com/products/attack-shark-x3-wireless-gaming-mouse-paw3395)
+
+---
+
+## 📦 Available applications
+
+<details>
+<summary><b>Attack Shark X3 Software</b></summary>
+
+<br>
+
 ```
 scoop install br4ndol/attackshark-x3
 ```
 
-[Autoruns](https://learn.microsoft.com/en-us/sysinternals/downloads/autoruns)
+🔗 [attackshark.com](https://attackshark.com/products/attack-shark-x3-wireless-gaming-mouse-paw3395)
+
+</details>
+
+<details>
+<summary><b>Autoruns</b></summary>
+
+<br>
+
 ```
 scoop install br4ndol/autoruns
 ```
-[Brave Browser](https://brave.com/)
+
+🔗 [Microsoft Learn](https://learn.microsoft.com/en-us/sysinternals/downloads/autoruns)
+
+</details>
+
+<details>
+<summary><b>Brave Browser</b></summary>
+
+<br>
+
 ```
 scoop install br4ndol/brave
 ```
 
-[Eden Nightly](https://eden-emu.dev/)
+🔗 [brave.com](https://brave.com/)
+
+</details>
+
+<details>
+<summary><b>Eden Nightly</b></summary>
+
+<br>
+
 ```
 scoop install br4ndol/eden-nightly
 ```
 
-[Firefox](https://www.firefox.com/)
+🔗 [eden-emu.dev](https://eden-emu.dev/)
+
+</details>
+
+<details>
+<summary><b>Firefox</b></summary>
+
+<br>
+
 ```
 scoop install br4ndol/firefox
 ```
 
-[Froststrap](https://froststrap.xyz/)
+🔗 [firefox.com](https://www.firefox.com/)
+
+</details>
+
+<details>
+<summary><b>Froststrap</b></summary>
+
+<br>
+
 ```
 scoop install br4ndol/froststrap
 ```
 
-[G-Helper](https://g-helper.com)
+🔗 [froststrap.xyz](https://froststrap.xyz/)
+
+</details>
+
+<details>
+<summary><b>G-Helper</b></summary>
+
+<br>
+
 ```
 scoop install br4ndol/g-helper
 ```
 
-[Helium Browser](https://helium.computer/)
+🔗 [g-helper.com](https://g-helper.com)
+
+</details>
+
+<details>
+<summary><b>Helium Browser</b></summary>
+
+<br>
+
 ```
 scoop install br4ndol/helium
 ```
-[Hytale Launcher](https://hytale.com/)
+
+🔗 [helium.computer](https://helium.computer/)
+
+</details>
+
+<details>
+<summary><b>Hytale Launcher</b></summary>
+
+<br>
+
 ```
 scoop install br4ndol/hytale
 ```
 
-[Prism Launcher](https://prismlauncher.org/)
+🔗 [hytale.com](https://hytale.com/)
+
+</details>
+
+<details>
+<summary><b>Prism Launcher</b></summary>
+
+<br>
+
 ```
 scoop install br4ndol/prismlauncher
 ```
 
-[Process Explorer](https://learn.microsoft.com/en-us/sysinternals/downloads/process-explorer)
+🔗 [prismlauncher.org](https://prismlauncher.org/)
+
+</details>
+
+<details>
+<summary><b>Process Explorer</b></summary>
+
+<br>
+
 ```
 scoop install br4ndol/process-explorer
 ```
-[Ryujinx Canary](https://ryujinx.app)
+
+🔗 [Microsoft Learn](https://learn.microsoft.com/en-us/sysinternals/downloads/process-explorer)
+
+</details>
+
+<details>
+<summary><b>Ryujinx Canary</b></summary>
+
+<br>
+
 ```
 scoop install br4ndol/ryujinx-canary
 ```
 
-[Sonora](https://sonorahq.org/)
+🔗 [ryujinx.app](https://ryujinx.app)
+
+</details>
+
+<details>
+<summary><b>Sonora</b></summary>
+
+<br>
+
 ```
 scoop install br4ndol/sonora
 ```
 
-[VSCodium](https://vscodium.com/)
+🔗 [sonorahq.org](https://sonorahq.org/)
+
+</details>
+
+<details>
+<summary><b>VSCodium</b></summary>
+
+<br>
+
 ```
 scoop install br4ndol/vscodium
 ```
 
-[Winscript](https://winscript.cc)
+🔗 [vscodium.com](https://vscodium.com/)
+
+</details>
+
+<details>
+<summary><b>Winscript</b></summary>
+
+<br>
+
 ```
 scoop install br4ndol/winscript
 ```
+
+🔗 [winscript.cc](https://winscript.cc)
+
+</details>
