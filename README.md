@@ -26,6 +26,11 @@ scoop install br4ndol/brave
 scoop install br4ndol/eden-nightly
 ```
 
+[Firefox](https://www.firefox.com/)
+```
+scoop install br4ndol/firefox
+```
+
 [Froststrap](https://froststrap.xyz/)
 ```
 scoop install br4ndol/froststrap
