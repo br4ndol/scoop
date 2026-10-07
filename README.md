@@ -5,7 +5,7 @@
 **A small collection of apps I use, packaged for [Scoop](https://scoop.sh).**
 
 ![Scoop](https://img.shields.io/badge/Scoop-bucket-5b9bd5?style=for-the-badge&logo=windows&logoColor=white)
-![Apps](https://img.shields.io/badge/apps-15-success?style=for-the-badge)
+![Apps](https://img.shields.io/badge/apps-16-success?style=for-the-badge)
 ![Platform](https://img.shields.io/badge/platform-Windows-0078D6?style=for-the-badge&logo=windows11&logoColor=white)
 
 </div>
@@ -34,7 +34,7 @@ scoop bucket add br4ndol https://github.com/br4ndol/scoop
 scoop install br4ndol/attackshark-x3
 ```
 
-🔗 [attackshark.com](https://attackshark.com/products/attack-shark-x3-wireless-gaming-mouse-paw3395)
+🔗 [Website](https://attackshark.com/products/attack-shark-x3-wireless-gaming-mouse-paw3395)
 
 </details>
 
@@ -47,7 +47,7 @@ scoop install br4ndol/attackshark-x3
 scoop install br4ndol/autoruns
 ```
 
-🔗 [Microsoft Learn](https://learn.microsoft.com/en-us/sysinternals/downloads/autoruns)
+🔗 [Website](https://learn.microsoft.com/en-us/sysinternals/downloads/autoruns)
 
 </details>
 
@@ -60,7 +60,7 @@ scoop install br4ndol/autoruns
 scoop install br4ndol/brave
 ```
 
-🔗 [brave.com](https://brave.com/)
+🔗 [Website](https://brave.com/)
 
 </details>
 
@@ -73,7 +73,7 @@ scoop install br4ndol/brave
 scoop install br4ndol/eden-nightly
 ```
 
-🔗 [eden-emu.dev](https://eden-emu.dev/)
+🔗 [Website](https://eden-emu.dev/)
 
 </details>
 
@@ -86,7 +86,7 @@ scoop install br4ndol/eden-nightly
 scoop install br4ndol/firefox
 ```
 
-🔗 [firefox.com](https://www.firefox.com/)
+🔗 [Website](https://www.firefox.com/)
 
 </details>
 
@@ -99,7 +99,7 @@ scoop install br4ndol/firefox
 scoop install br4ndol/froststrap
 ```
 
-🔗 [froststrap.xyz](https://froststrap.xyz/)
+🔗 [Website](https://froststrap.xyz/)
 
 </details>
 
@@ -112,7 +112,7 @@ scoop install br4ndol/froststrap
 scoop install br4ndol/g-helper
 ```
 
-🔗 [g-helper.com](https://g-helper.com)
+🔗 [Website](https://g-helper.com)
 
 </details>
 
@@ -125,7 +125,7 @@ scoop install br4ndol/g-helper
 scoop install br4ndol/helium
 ```
 
-🔗 [helium.computer](https://helium.computer/)
+🔗 [Website](https://helium.computer/)
 
 </details>
 
@@ -138,7 +138,7 @@ scoop install br4ndol/helium
 scoop install br4ndol/hytale
 ```
 
-🔗 [hytale.com](https://hytale.com/)
+🔗 [Website](https://hytale.com/)
 
 </details>
 
@@ -164,7 +164,7 @@ scoop install br4ndol/photocraft
 scoop install br4ndol/prismlauncher
 ```
 
-🔗 [prismlauncher.org](https://prismlauncher.org/)
+🔗 [Website](https://prismlauncher.org/)
 
 </details>
 
@@ -177,7 +177,7 @@ scoop install br4ndol/prismlauncher
 scoop install br4ndol/process-explorer
 ```
 
-🔗 [Microsoft Learn](https://learn.microsoft.com/en-us/sysinternals/downloads/process-explorer)
+🔗 [Website](https://learn.microsoft.com/en-us/sysinternals/downloads/process-explorer)
 
 </details>
 
@@ -190,7 +190,7 @@ scoop install br4ndol/process-explorer
 scoop install br4ndol/ryujinx-canary
 ```
 
-🔗 [ryujinx.app](https://ryujinx.app)
+🔗 [Website](https://ryujinx.app)
 
 </details>
 
@@ -203,7 +203,7 @@ scoop install br4ndol/ryujinx-canary
 scoop install br4ndol/sonora
 ```
 
-🔗 [sonorahq.org](https://sonorahq.org/)
+🔗 [Website](https://sonorahq.org/)
 
 </details>
 
@@ -216,7 +216,7 @@ scoop install br4ndol/sonora
 scoop install br4ndol/vscodium
 ```
 
-🔗 [vscodium.com](https://vscodium.com/)
+🔗 [Website](https://vscodium.com/)
 
 </details>
 
@@ -229,6 +229,6 @@ scoop install br4ndol/vscodium
 scoop install br4ndol/winscript
 ```
 
-🔗 [winscript.cc](https://winscript.cc)
+🔗 [Website](https://winscript.cc)
 
 </details>
