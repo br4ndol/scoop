@@ -143,6 +143,19 @@ scoop install br4ndol/hytale
 </details>
 
 <details>
+<summary><b>PhotoCraft</b></summary>
+
+<br>
+
+```
+scoop install br4ndol/photocraft
+```
+
+🔗 [Website](https://getartcraft.com/apps/photocraft/)
+
+</details>
+
+<details>
 <summary><b>Prism Launcher</b></summary>
 
 <br>
