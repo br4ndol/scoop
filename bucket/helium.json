@@ -1,14 +1,14 @@
 {
-    "version": "0.18.3.1",
+    "version": "0.19.2.1",
     "description": "Privacy-first browser without distractions",
     "homepage": "https://helium.computer",
     "license": {
         "identifier": "GPL-3.0-or-later",
         "url": "https://github.com/imputnet/helium/blob/main/LICENSE"
     },
-    "url": "https://github.com/imputnet/helium-windows/releases/download/0.18.3.1/helium_0.18.3.1_x64-windows.zip",
-    "hash": "5ec99fcdbda36ca990856dcc6d1fb832abcdc795ec627eb78b11c858f305a5cc",
-    "extract_dir": "helium_0.18.3.1_x64-windows",
+    "url": "https://github.com/imputnet/helium-windows/releases/download/0.19.2.1/helium_0.19.2.1_x64-windows.zip",
+    "hash": "8623c04201a0a45a97920c7acdaa3a9f022260c66d6dfe78e7dcb323d4d2d89c",
+    "extract_dir": "helium_0.19.2.1_x64-windows",
     "bin": [
         [
             "chrome.exe",
