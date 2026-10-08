@@ -208,6 +208,19 @@ scoop install br4ndol/ryujinx-canary
 </details>
 
 <details>
+<summary><b>SCSKiller </b></summary>
+
+<br>
+
+```
+scoop install br4ndol/scskiller
+```
+
+🔗 [Website](https://scskiller.com/)
+
+</details>
+
+<details>
 <summary><b>Sonora</b></summary>
 
 <br>
