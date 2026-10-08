@@ -5,7 +5,7 @@
 **A small collection of apps I use, packaged for [Scoop](https://scoop.sh).**
 
 ![Scoop](https://img.shields.io/badge/Scoop-bucket-5b9bd5?style=for-the-badge&logo=windows&logoColor=white)
-![Apps](https://img.shields.io/badge/apps-17-success?style=for-the-badge)
+![Apps](https://img.shields.io/badge/apps-18-success?style=for-the-badge)
 ![Platform](https://img.shields.io/badge/platform-Windows-0078D6?style=for-the-badge&logo=windows11&logoColor=white)
 
 </div>
