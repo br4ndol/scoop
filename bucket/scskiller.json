@@ -8,17 +8,18 @@
     },
     "url": "https://github.com/BlueHeisenberg/SCSKiller/releases/download/v1.2.3/SCSKiller-1.2.3-Portable.zip",
     "hash": "9535f1c1fad90a30b82383a0bc8c14ee380c1549dbcff0ed24638df617fb3651",
-    "bin": "SCSKiller.exe",
+    "post_install": [
+        "Remove-Item \"$dir\\SCSKiller.exe\" -Force -ErrorAction SilentlyContinue",
+        "Remove-Item \"$dir\\Update.exe\" -Force -ErrorAction SilentlyContinue"        
+    ],
+    "bin": "current\\SCSKiller.exe",
     "shortcuts": [
         [
-            "SCSKiller.exe",
+            "current\\SCSKiller.exe",
             "SCSKiller"
         ]
     ],
-    "persist": [
-       "data",
-       "packages" 
-    ],
+    "persist": "data",
     "checkver": {
         "url": "https://api.github.com/repos/BlueHeisenberg/SCSKiller/releases",
         "jsonpath": "$[0].tag_name",
