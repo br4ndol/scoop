@@ -1,5 +1,5 @@
 {
-    "version": "1.135.06055",
+    "version": "1.140.06880",
     "description": "A community-driven, freely-licensed binary distribution of Microsoft's editor VS Code.",
     "homepage": "https://vscodium.com/",
     "license": {
@@ -12,8 +12,8 @@
         "For file associations, run:",
         "reg import \"$dir\\install-associations.reg\""
     ],
-    "url": "https://github.com/VSCodium/vscodium/releases/download/1.135.06055/VSCodium-win32-x64-1.135.06055.zip",
-    "hash": "0bec978f201238624bc9ad43966f5e201ed8afacc37d77035a822252d9c9c200",
+    "url": "https://github.com/VSCodium/vscodium/releases/download/1.140.06880/VSCodium-win32-x64-1.140.06880.zip",
+    "hash": "024ae1e88f431aee300e73c2ece92e42ebde80a7f3c484ff684f455ffa6a6a7f",
     "pre_install": [
         "$product_path = \"$dir\\resources\\app\\product.json\"",
         "if (Test-Path -Path $product_path) {",
