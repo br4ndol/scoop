@@ -1,14 +1,14 @@
 {
-    "version": "0.13.1",
+    "version": "0.13.2",
     "description": "Spotify, native and fast",
     "homepage": "https://spotifast.rocks/",
     "license": {
         "identifier": "MIT",
         "url": "https://github.com/crmne/spotifast/blob/main/LICENSE"
     },
-    "url": "https://github.com/crmne/spotifast/releases/download/v0.13.1/spotifast-v0.13.1-x86_64-pc-windows-msvc.zip",
-    "hash": "560da277ce7dd505b8423772ea9ae7a6bac2366f0c19e71581390fb3a104dcc2",
-    "extract_dir": "spotifast-v0.13.1-x86_64-pc-windows-msvc",
+    "url": "https://github.com/crmne/spotifast/releases/download/v0.13.2/spotifast-v0.13.2-x86_64-pc-windows-msvc.zip",
+    "hash": "6363bfb89f5b9f43a93fe9f65c8ddfaddcfd6c4f71cd3cc067531d3841e9b60a",
+    "extract_dir": "spotifast-v0.13.2-x86_64-pc-windows-msvc",
     "post_install": [
         "# Spotifast stores its data under AppData (Local: data/cache, Roaming: config).",
         "# Move any existing data into the persist dir and redirect the app via junctions.",
