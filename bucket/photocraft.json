@@ -1,7 +1,7 @@
 {
     "version": "0.9.0",
     "description": "An open-source, clean-room reimplementation of Adobe Photoshop in pure Rust",
-    "homepage": "https://github.com/storytold/photocraft",
+    "homepage": "https://getartcraft.com/apps/photocraft/",
     "license": "Apache-2.0|MIT",
     "url": "https://github.com/storytold/photocraft/releases/download/v0.9.0/photocraft-0.9.0-windows-x64-portable.zip",
     "hash": "e87bbe26f84d3c359765b61d128b9cc59f016a995956fe7909b328a97650fc97",
