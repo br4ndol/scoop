@@ -5,7 +5,7 @@
 **A small collection of apps I use, packaged for [Scoop](https://scoop.sh).**
 
 ![Scoop](https://img.shields.io/badge/Scoop-bucket-5b9bd5?style=for-the-badge&logo=windows&logoColor=white)
-![Apps](https://img.shields.io/badge/apps-19-success?style=for-the-badge)
+![Apps](https://img.shields.io/badge/apps-20-success?style=for-the-badge)
 ![Platform](https://img.shields.io/badge/platform-Windows-0078D6?style=for-the-badge&logo=windows11&logoColor=white)
 
 </div>
@@ -152,6 +152,19 @@ scoop install br4ndol/hytale
 ```
 
 🔗 [Website](https://hytale.com/)
+
+</details>
+
+<details>
+<summary><b>OpenCode</b></summary>
+
+<br>
+
+```
+scoop install br4ndol/opencode
+```
+
+🔗 [Website](https://opencode.ai)
 
 </details>
 
