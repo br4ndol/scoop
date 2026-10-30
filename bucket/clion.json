@@ -14,24 +14,20 @@
     "suggest": {
         "vcredist": "extras/vcredist2022"
     },
-    "architecture": {
-        "64bit": {
-            "url": "https://download.jetbrains.com/cpp/CLion-2026.2.4.win.zip",
-            "hash": "a3d8776ceef59e87bba91d568d567db29571878a347eec2773fb50b37fe2e064",
-            "bin": [
-                [
-                    "IDE\\bin\\clion64.exe",
-                    "clion"
-                ]
-            ],
-            "shortcuts": [
-                [
-                    "IDE\\bin\\clion64.exe",
-                    "JetBrains\\CLion"
-                ]
-            ]
-        }
-    },
+    "url": "https://download.jetbrains.com/cpp/CLion-2026.2.4.win.zip",
+    "hash": "a3d8776ceef59e87bba91d568d567db29571878a347eec2773fb50b37fe2e064",
+    "bin": [
+        [
+            "IDE\\bin\\clion64.exe",
+            "clion"
+        ]
+    ],
+    "shortcuts": [
+        [
+            "IDE\\bin\\clion64.exe",
+            "JetBrains\\CLion"
+        ]
+    ],
     "extract_to": "IDE",
     "pre_install": [
         "# The JetBrains Daemon lives outside the app folder (%LOCALAPPDATA%\\JetBrains\\Daemon) and",
@@ -124,11 +120,7 @@
         "replace": "${ver}-${build}"
     },
     "autoupdate": {
-        "architecture": {
-            "64bit": {
-                "url": "https://download.jetbrains.com/cpp/CLion-$matchVer.win.zip"
-            }
-        },
+        "url": "https://download.jetbrains.com/cpp/CLion-$matchVer.win.zip",
         "hash": {
             "url": "$url.sha256"
         }
