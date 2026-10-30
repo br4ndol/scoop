@@ -8,8 +8,7 @@
     },
     "notes": [
         "Add CLion to the right-click menu by running:",
-        "reg import \"$dir\\install-context.reg\"",
-        "(Run it again after moving or reinstalling the app.)"
+        "reg import \"$dir\\install-context.reg\""
     ],
     "suggest": {
         "vcredist": "extras/vcredist2022"
@@ -25,7 +24,7 @@
     "shortcuts": [
         [
             "IDE\\bin\\clion64.exe",
-            "JetBrains\\CLion"
+            "CLion"
         ]
     ],
     "extract_to": "IDE",
