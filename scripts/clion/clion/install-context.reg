@@ -1,0 +1,22 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\Software\Classes\*\shell\Open with &CLion]
+@="Open with CLion"
+"Icon"="$clion"
+
+[HKEY_CURRENT_USER\Software\Classes\*\shell\Open with &CLion\command]
+@="\"$clion\" \"%1\""
+
+[HKEY_CURRENT_USER\Software\Classes\Directory\shell\Open with &CLion]
+@="Open with CLion"
+"Icon"="$clion"
+
+[HKEY_CURRENT_USER\Software\Classes\Directory\shell\Open with &CLion\command]
+@="\"$clion\" \"%V\""
+
+[HKEY_CURRENT_USER\Software\Classes\Directory\Background\shell\Open with &CLion]
+@="Open with CLion"
+"Icon"="$clion"
+
+[HKEY_CURRENT_USER\Software\Classes\Directory\Background\shell\Open with &CLion\command]
+@="\"$clion\" \"%V\""
