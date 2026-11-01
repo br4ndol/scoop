@@ -268,7 +268,7 @@ scoop install br4ndol/sonora
 scoop install br4ndol/spotifast
 ```
 
-🔗 [Website](https://github.com/crmne/spotifast)
+🔗 [Website](https://spotifast.rocks/)
 
 </details>
 
