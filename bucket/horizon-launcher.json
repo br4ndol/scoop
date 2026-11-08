@@ -41,15 +41,6 @@
             "Horizon Launcher"
         ]
     ],
-    "uninstaller": {
-        "script": [
-            "$scope = $(if ($global) { 'Machine' } else { 'User' })",
-            "'HORIZON_LAUNCHER_HOME', 'HORIZON_HOME', 'HORIZON_LAUNCHER_NO_SELF_UPDATE' | ForEach-Object {",
-            "    Remove-Item \"env:\\$_\" -ErrorAction Ignore",
-            "    [Environment]::SetEnvironmentVariable($_, $null, $scope)",
-            "}"
-        ]
-    },
     "checkver": {
         "url": "https://api.github.com/repos/horizon-rust/horizon/releases?per_page=30",
         "jsonpath": "$[*].tag_name",
