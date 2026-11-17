@@ -1,5 +1,5 @@
 {
-    "version": "316",
+    "version": "341",
     "description": "VERY experimental Nintendo Switch 2 emulator, forked from yuzu and Eden (PGO build).",
     "homepage": "https://github.com/zortos293/Lichii",
     "license": {
@@ -9,8 +9,8 @@
     "suggest": {
         "Microsoft Visual C++ Runtime 2022": "extras/vcredist2022"
     },
-    "url": "https://github.com/zortos293/Lichii/releases/download/build-316/lichii-windows-x86_64-pgo.zip",
-    "hash": "d662a8e4552ea84231ada5b13db8aef3c0acd423e67b6c12448c61957a59dfb4",
+    "url": "https://github.com/zortos293/Lichii/releases/download/build-341/lichii-windows-x86_64-pgo.zip",
+    "hash": "714055ece64d28a8ae5a1a04d8e7e20b300f25e58734f9e8a117b014cc4fca6c",
     "pre_install": [
         "if (!(Test-Path \"$persist_dir\\user\")) {",
         "    New-Item \"$persist_dir\\user\" -ItemType Directory -Force | Out-Null",
