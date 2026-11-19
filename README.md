@@ -5,7 +5,7 @@
 **A small collection of apps I use, packaged for [Scoop](https://scoop.sh).**
 
 ![Scoop](https://img.shields.io/badge/Scoop-bucket-5b9bd5?style=for-the-badge&logo=windows&logoColor=white)
-![Apps](https://img.shields.io/badge/apps-21-success?style=for-the-badge)
+![Apps](https://img.shields.io/badge/apps-22-success?style=for-the-badge)
 ![Platform](https://img.shields.io/badge/platform-Windows-0078D6?style=for-the-badge&logo=windows11&logoColor=white)
 
 </div>
@@ -165,6 +165,19 @@ scoop install br4ndol/lichii
 ```
 
 🔗 [Website](https://github.com/zortos293/Lichii)
+
+</details>
+
+<details>
+<summary><b>Longshot Launcher</b></summary>
+
+<br>
+
+```
+scoop install br4ndol/longshot-launcher
+```
+
+🔗 [Website](https://longshot.magicbean.dev/)
 
 </details>
 
