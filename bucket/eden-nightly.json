@@ -1,5 +1,5 @@
 {
-    "version": "1795133032.8a48283017",
+    "version": "1795217457.4089cfcffd",
     "description": "High-performance Open source emulator for the Nintendo Switch. (forked from yuzu — nightly build)",
     "homepage": "https://eden-emu.dev/",
     "license": {
@@ -13,8 +13,8 @@
     "suggest": {
         "Microsoft Visual C++ Runtime 2022": "extras/vcredist2022"
     },
-    "url": "https://nightly.eden-emu.dev/v1795133032.8a48283017/Eden-Windows-8a48283017-amd64-clang-pgo.zip",
-    "hash": "942a4de3dbb5c47438132328e7f6e6a2dc8f86b80686a89fbd44cc6d7a30acdd",
+    "url": "https://nightly.eden-emu.dev/v1795217457.4089cfcffd/Eden-Windows-4089cfcffd-amd64-clang-pgo.zip",
+    "hash": "e12dde540204a46994d449d2fa4215459b0cbb5052ad3cfdc65657b6b6f5193c",
     "pre_install": [
         "if (!(Test-Path \"$persist_dir\")) {",
         "    New-Item \"$persist_dir\" -ItemType Directory | Out-Null",
